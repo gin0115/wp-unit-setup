@@ -12,7 +12,7 @@ class String_Util {
 	public static function replace_first( $string, $search, $replace ) {
 		$pos = strpos( $string, $search );
 		if ( $pos !== false ) {
-			$string = substr_replace( $string, $replace, $pos, strlen( $search ) );
+			return substr_replace( $string, $replace, $pos, strlen( $search ) );
 		}
 		return $string;
 	}
@@ -28,7 +28,7 @@ class String_Util {
 	public static function replace_last( $string, $search, $replace ): string{
 		$pos = strrpos( $string, $search );
 		if ( $pos !== false ) {
-			$string = substr_replace( $string, $replace, $pos, strlen( $search ) );
+			return substr_replace( $string, $replace, $pos, strlen( $search ) );
 		}
 		return $string;
 	}
