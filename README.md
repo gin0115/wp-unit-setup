@@ -22,10 +22,11 @@ There is github actions that will run all the tests on each commit, so you can s
 
 Once you are happy its all done, please put in a PR to merge this into `main` this will then trigger codecov to log the coverage and report it back to the PR.
 
-### Current Coverage
+### Current Coverage & Test Results
 [![codecov](https://codecov.io/gh/gin0115/wp-unit-setup/branch/main/graph/badge.svg?token=GVTB7X33RY)](https://codecov.io/gh/gin0115/wp-unit-setup)
 
+[![WordPress 5.9 Test Suite [PHP7.2-8.1]](https://github.com/gin0115/wp-unit-setup/actions/workflows/WP_5_9.yaml/badge.svg)](https://github.com/gin0115/wp-unit-setup/actions/workflows/WP_5_9.yaml)
 
+[![WordPress 6.0 Test Suite [PHP7.2-8.1]](https://github.com/gin0115/wp-unit-setup/actions/workflows/WP_6_0.yaml/badge.svg)](https://github.com/gin0115/wp-unit-setup/actions/workflows/WP_6_0.yaml)
 
-
-
+[![WordPress 6.1 Test Suite [PHP7.2-8.1]](https://github.com/gin0115/wp-unit-setup/actions/workflows/WP_6_1.yaml/badge.svg)](https://github.com/gin0115/wp-unit-setup/actions/workflows/WP_6_1.yaml)
