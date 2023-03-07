@@ -21,3 +21,4 @@ Please fork this repo and work through all the tests to aim for 100% coverage of
 There is github actions that will run all the tests on each commit, so you can see the results of your work. These should all come back as passes, there are 15 different combinations of WP versions and PHP versions that are tested.
 
 
+
