@@ -20,5 +20,10 @@ This is an example of the PinkCrab WP Test Suite, but done as a learning exercis
 Please fork this repo and work through all the tests to aim for 100% coverage of tests, ensure PHPStan is happy and all code is done to pass PHPCS.
 There is github actions that will run all the tests on each commit, so you can see the results of your work. These should all come back as passes, there are 15 different combinations of WP versions and PHP versions that are tested.
 
+Once you are happy its all done, please put in a PR to merge this into `main` this will then trigger codecov to log the coverage and report it back to the PR.
+[![codecov](https://codecov.io/gh/gin0115/wp-unit-setup/branch/main/graph/badge.svg?token=GVTB7X33RY)](https://codecov.io/gh/gin0115/wp-unit-setup)
+
+
+
 
 
